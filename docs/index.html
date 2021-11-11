@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <!--design Nav bar-->
+   <div>
+   <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="visualizations/index.html">CITIES LATITUDE</a> 
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+       <div class="navbar-nav">
+            <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+             SHOW
+             </a>
+           <div class="dropdown-menu">
+           <a class="nav-link dropdown-item" href="visualizations/Temperature.html">Temperature</a>
+           <a class="nav-link dropdown-item" href="visualizations/Humidity.html">Humidity</a>
+           <a class="nav-link dropdown-item" href="visualizations/Cloudiness.html">Cloudiness</a>
+           <a class="nav-link dropdown-item" href="visualizations/Windspeed.html">Windspeed</a>
+           </div>
+         </div>
+         <a class="nav-item nav-link" href="visualizations/data.html">CITIES DATA</a>
+         <a class="nav-item nav-link" href="visualizations/comparisons.html">COMPARISON</a>     
+     
+   </div></div>
+   </nav>
+   </div>
+
+    <!--Bootstrap grid-->
+    <div class="container bg-white">
+      <div class="row">
+      
+      <div class="main col-lg-8">
+      <h1>Weather</h1>
+      <p>Weather data Visualization in relation to latitude</p>
+      
+      <h3>Data</h3>
+      </div>
+      
+      <div class="col"></div>
+      
+      <div class="sidebar col-lg-3">
+        <H3>The Four Visuals</H3>
+        <div class="row">
+        <figure class="col-3 col-lg-6">
+            <a href="visualizations/Temperature.html"><img src="assets/images/Fig1.png" class="img-fluid"></a>
+            <figcaption class="text-center">Temperature</figcaption>  
+        </figure>
+        <figure class="col-3 col-lg-6">
+            <a href="visualizations/Humidity.html"><img src="assets/images/Fig2.png" class="img-fluid"></a>    
+            <figcaption class="text-center">Humidity</figcaption>  
+        </figure>
+        <figure class="col-3 col-lg-6">
+            <a href="visualizations/Cloudiness.html"><img src="assets/images/Fig3.png" class="img-fluid"></a>    
+            <figcaption class="text-center">Cloudiness</figcaption>  
+        </figure>
+        <figure class="col-3 col-lg-6">
+            <a href="visualizations/Windspeed.html"><img src="assets/images/Fig4.png" class="img-fluid"></a>    
+            <figcaption class="text-center">Windspeed</figcaption>  
+        </figure>
+        </div>
+      </div>
+ 
+      <hr><p class="footer">Visualisations</p>
+       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+
+</html>
